@@ -10,7 +10,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.thiagodev.santander.R
 import com.thiagodev.santander.data.Conta
-import java.lang.RuntimeException
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById(R.id.toolbar))
+
+
 
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
@@ -55,9 +56,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
 
-        val inflate = menuInflater
-        inflate.inflate(R.menu.main_menu, menu)
-
+        menuInflater.inflate(R.menu.main_menu, menu)
         return true
     }
 
