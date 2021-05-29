@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Santander</string>
+    <string name="text_saldo_disponivel">Saldo Disponível</string>
+    <string name="text_saldo_limite">Saldo * Limite</string>
+    <string name="text_ver_extrato">Ver Extrato</string>
+    <string name="text_pagar">Pagar</string>
+    <string name="text_transferir">Transferir</string>
+    <string name="text_recarga">Recarregar</string>
+    <string name="text_cartao_final">Cartão Final</string>
+</resources>
