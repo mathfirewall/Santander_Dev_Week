@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_icone_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Santander">
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".ui.LoginActivity"></activity>
+        <activity android:name=".ui.MenuActivity" />
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.InicioActivity" />
+        <activity android:name=".ui.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

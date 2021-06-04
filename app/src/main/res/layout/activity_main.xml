@@ -13,12 +13,11 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:paddingLeft="100dp"
+        android:paddingLeft="155dp"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navigationIcon="@drawable/santander_icon"
         app:title="@string/app_name"
         app:titleTextColor="@color/white" />
 
@@ -31,6 +30,19 @@
         app:layout_constraintStart_toStartOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="@+id/toolbar"
         app:srcCompat="@drawable/ic_baseline_reorder_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/santander_icon" />
 
     <ImageView
         android:layout_width="0dp"
@@ -179,9 +191,10 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mcv_pagar"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="16dp"
+        android:layout_width="119dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mcv_card_conta">
 
@@ -195,24 +208,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_credit_card_24"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="@id/tv_pagar"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_pagar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_pagar"
-                app:layout_constraintTop_toBottomOf="@id/iv_pagar"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/iv_pagar" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
     </com.google.android.material.card.MaterialCardView>
@@ -220,11 +232,12 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mcv_transferir"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="16dp"
-        app:layout_constraintTop_toBottomOf="@id/mcv_card_conta"
-        app:layout_constraintStart_toEndOf="@id/mcv_pagar">
+        android:layout_width="119dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@id/mcv_pagar"
+        app:layout_constraintTop_toBottomOf="@id/mcv_card_conta">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -236,24 +249,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_payments_24"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="@id/tv_transferir"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_transferir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_transferir"
-                app:layout_constraintTop_toBottomOf="@id/iv_transferir"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/iv_transferir" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
     </com.google.android.material.card.MaterialCardView>
@@ -261,11 +273,12 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mcv_recarga"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="16dp"
-        app:layout_constraintTop_toBottomOf="@id/mcv_card_conta"
-        app:layout_constraintStart_toEndOf="@id/mcv_transferir">
+        android:layout_width="119dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@id/mcv_transferir"
+        app:layout_constraintTop_toBottomOf="@id/mcv_card_conta">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -277,24 +290,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_stay_primary_portrait_24"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="@id/tv_recarga"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_recarga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_recarga"
-                app:layout_constraintTop_toBottomOf="@id/iv_recarga"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/iv_recarga" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
     </com.google.android.material.card.MaterialCardView>
@@ -303,12 +315,13 @@
         android:id="@+id/iv_cartao_final"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_margin="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="16dp"
         android:background="@color/redPrimary"
-        app:layout_constraintTop_toBottomOf="@id/mcv_pagar"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mcv_pagar" />
 
     <TextView
         android:id="@+id/tv_cartao_final"
