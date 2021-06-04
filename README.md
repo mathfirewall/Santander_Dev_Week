@@ -4,6 +4,11 @@
  
 
 ## 💦 Tela Principal Splash
+
+### Neste projeto em 100% Kotlin, eu demostro como criar varias telas interação entre elas, uso do Timer para colocar o tempo na tela de Splash, faço uso de Alert Dialog 
+uso mascaramento na tela de Login via CPF, parametro para verificação do CPF se ok ele chama a tela principal onde contem os dados e valores do usário.
+
+
 <p align="center">
 <img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/gif-dio.gif" width="450"></img>  <img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/principal.png" width="475"></img>
 </p>
