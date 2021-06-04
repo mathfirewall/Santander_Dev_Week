@@ -6,7 +6,7 @@
 ## 💦 Tela Principal Splash
 
 ### Neste projeto em 100% Kotlin, eu demostro como criar varias telas interação entre elas, uso do Timer para colocar o tempo na tela de Splash, faço uso de Alert Dialog 
-uso mascaramento na tela de Login via CPF, parametro para verificação do CPF se ok ele chama a tela principal onde contem os dados e valores do usário.
+uso mascaramento na tela de Login via CPF, parametro para verificação do CPF se ok ele chama a tela principal onde contem os dados e valores do usário uso de Intent para chamar o navegador e injetar o site, uso do Handler para startar ou parar a intent se caso cancelada pelo o usuário.
 
 
 <p align="center">
