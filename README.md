@@ -10,7 +10,7 @@ uso mascaramento na tela de Login via CPF, parametro para verificação do CPF s
 
 
 <p align="center">
-<img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/gif-dio.gif" width="400"></img>  <img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/principal.png" width="400"></img>
+<img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/gif-dio.gif" width="400"></img>  <img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/principal.png" width="420"></img>
 </p>
 
 ## Outras Telas
