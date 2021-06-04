@@ -4,7 +4,9 @@
  
 
 ## 💦 Tela Principal Splash
+<p align="center">
 <img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/gif-dio.gif" width="450"></img>  <img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/principal.png" width="475"></img>
+</p>
 
 ## Outras Telas
 <p align="center">
