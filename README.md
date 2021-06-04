@@ -1,8 +1,10 @@
 # Santander_Dev_Week
  Replicação da Tela do Aplicativo Santander
+ 
+ 
 
 ## 💦 Tela Principal Splash
-<img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/principal.png"></img>
+<img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/gif-dio.gif"></img>  <img src="https://github.com/mathfirewall/Santander_Dev_Week/blob/main/video/principal.png"></img>
 
 ## Outras Telas
 <p align="center">
